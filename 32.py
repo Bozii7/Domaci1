@@ -11,7 +11,7 @@ d = int(broj[3])
 e = int(broj[4])
 f = int(broj[5])
 
-if a * c + 2 + f == b + d * e:
-    print(True)
-else:
-    print(False)
+lijevo = a * c + 2 + f
+desno = b + d * e
+print(f'Rezultat poredjenja je {lijevo == desno}')
+
